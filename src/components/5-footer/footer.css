@@ -1,0 +1,60 @@
+/* =============================== 
+   Table of content
+   =============================== 
+
+   1. Left Section
+   2. Right Section
+   3. Responsive Design(media query)
+
+*/
+
+footer.flex{
+    justify-content: space-between;
+    padding-bottom: 1.9rem;
+}
+
+  /* 
+  =================
+  1. Left Section 
+  =================
+  */
+
+footer.flex ul{
+    gap: 1rem ;
+}
+
+footer.flex ul a{
+    color: var(--subtitle);
+    font-size: 1rem;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+footer.flex ul a:hover{
+   color: var(--blue);
+   font-size: 1rem;
+}
+
+ /* 
+  =================
+   2. Right Section 
+  =================
+  */
+
+footer.flex p{
+    color: rgb(113, 113, 122);
+}
+
+/* =================================
+   3. Responsive Design(media query)
+  ==================================
+   */
+
+
+   
+@media (max-width: 800px){
+    footer.flex{
+       flex-direction: column;
+       gap: 2rem;
+    }
+  }
