@@ -3,8 +3,8 @@ const myProjects = [
     projectTitle: "My Portfolio",
     category: "react",
     imgPath: "./images/react-portfolio.png",
-    github: "https://github.com/Elkadouri/ELKadouri.git",
-    link: "https://elkadouri.github.io/ELKadouri/",
+    github: "https://github.com/Elkadouri/Mostapha-Elkadouri.git",
+    link: "https://elkadouri.github.io/Mostapha-Elkadouri/",
     description:
       "Check out my React and Vite portfolio, showcasing my HTML, CSS, JavaScript, and React projects with eye-catching animations.",
   },
@@ -51,8 +51,9 @@ const myProjects = [
     imgPath: "./images/reactcruds.png",
     github: "https://github.com/Elkadouri/CRUDS.git",
     link: "https://elkadouri.github.io/CRUDS/",
-     description: "A React CRUD app with dark and light modes. Manage entries effortlessly with a clean, user-friendly interface."
-  },  
+    description:
+      "A React CRUD app with dark and light modes. Manage entries effortlessly with a clean, user-friendly interface.",
+  },
   {
     projectTitle: "MK Editor",
     category: "js",
